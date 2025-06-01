@@ -8,7 +8,7 @@
 }
 
 body{
-background-color: black;
+  background-color: black;
 }
 
 .fondo{
@@ -99,11 +99,10 @@ nav{
 }
 
 aside{
-display: none;
+  display: none;
 }
 
 .aside div{
-
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -149,7 +148,6 @@ aside div p{
   z-index: 2;
 }
 
-
 #botonesResposiveMedio{
 display: none;
 }
@@ -157,7 +155,6 @@ display: none;
 #botonesResposivelarge{
   display: none;
 }
-
 
 #botonesResposiveExtlarge{
 display: none;
@@ -364,7 +361,7 @@ nav{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  #inputText{
+#inputText{
   display: grid;
   grid-template-columns: 85% 15%;
   width: 100%;
@@ -379,7 +376,7 @@ nav{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-  .VideosColumnas{
+.VideosColumnas{
   grid-template-columns: repeat(3,1fr);
 }
 
