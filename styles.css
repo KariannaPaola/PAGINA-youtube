@@ -125,17 +125,11 @@ aside div p{
 }
 
 .asideIcons:hover{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
   background:  rgba(67, 65, 65, 0.76);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8.3px);
   -webkit-backdrop-filter: blur(8.3px);;
-  padding: 10px 5px 10px 5px;
 }
 
 .main-videos{
@@ -358,8 +352,8 @@ nav{
 }
 
 #botonesResposiveMedio{
-display: flex;
-gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .VideosColumnas{
@@ -374,12 +368,11 @@ gap: 10px;
   display: grid;
   grid-template-columns: 85% 15%;
   width: 100%;
-  }
+}
 
 #botonesResposivelarge{
   display: flex;
   gap: 10px;
-
 }
 
 }
