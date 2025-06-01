@@ -149,7 +149,7 @@ aside div p{
 }
 
 #botonesResposiveMedio{
-display: none;
+  display: none;
 }
 
 #botonesResposivelarge{
@@ -157,7 +157,7 @@ display: none;
 }
 
 #botonesResposiveExtlarge{
-display: none;
+  display: none;
 }
 
 button{
